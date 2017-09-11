@@ -56,12 +56,12 @@ int main()
 	A_obj.public_fun_A();
 	cout<<A_obj.public_var<<endl;
 	
-	//accessing protected section
+	//accessing protected section //ERROR
 /*	A_obj.protected_var=20;
 	A_obj.protected_fun_A();
 	cout<<A_obj.protected_var<<endl;
 */	
-	//accessing private section
+	//accessing private section //ERROR
 /*	A_obj.private_var=20;
 	A_obj.private_fun_A();
 	cout<<A_obj.private_var<<endl;
