@@ -63,4 +63,8 @@ int main()
 	ptr1->fun();
 	return 1;
 }
-
+------------------------------------------------------------------------------------------------------------------
+Output:
+Diamond_Problem.cpp: In function ‘int main()’:
+Diamond_Problem.cpp:62:27: error: ‘base’ is an ambiguous base of ‘regular’
+  base *ptr1 = new regular();//can not upcast , which sub object?
