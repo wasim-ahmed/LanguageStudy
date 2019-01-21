@@ -1,2 +1,2 @@
 # LanguageStudy
-Sample programs
+Sample programs to learn C++
